@@ -20,7 +20,7 @@ input.addEventListener('keydown', function(e) {
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
 
-  if (key === "71"){
+  if (key === "38"){
     alert("Hurray!");
   }
   if (key === alphabet[index]) {
