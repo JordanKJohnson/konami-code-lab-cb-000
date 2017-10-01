@@ -22,7 +22,7 @@ input.addEventListener('keydown', function onKeyDownHandler(e) {
     index++;
 
     if (index === code.length) {
-      alert("Hurray!");
+      alert("Correct code entered.");
 
       index = 0;
     }
