@@ -30,6 +30,7 @@ function onKeyDownHandler(e) {
     }
   } else {
     index = 0;
+    alert("Wrong code entered.");
   }
 }
 }
