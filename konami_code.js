@@ -4,11 +4,13 @@ function init() {
   // Write your JavaScript code inside the init() function
   const input = document.querySelector('input')
 
+/*
   input.addEventListener('keydown', function(e) {
     if (e.which === 71) {
       return e.preventDefault()
     }
   })
+  */
 
   // Keep track of index outside of the event handler.
 let index = 0;
